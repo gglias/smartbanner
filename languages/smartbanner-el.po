@@ -1,0 +1,533 @@
+# Copyright (C) 2026 Smartup
+# This file is distributed under the same license as the SmartBanner plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartBanner 1.3.7\n"
+"Report-Msgid-Bugs-To: https://smartupweb.com\n"
+"Last-Translator: Smartup\n"
+"Language-Team: Greek\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: el\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-26T19:00:00+00:00\n"
+"PO-Revision-Date: 2026-09-26 19:00+0000\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: smartbanner\n"
+
+#. Plugin Name of the plugin
+#: smartbanner.php
+#: includes/admin.php:124
+#: includes/admin.php:125
+#: includes/admin.php:623
+msgid "SmartBanner"
+msgstr "SmartBanner"
+
+#. Description of the plugin
+#: smartbanner.php
+msgid "Floating banner in the bottom corner that promotes a blog post you choose (or custom content). Visitors can close it and it stays closed. WPML ready."
+msgstr "Αιωρούμενο banner στη γωνία της σελίδας που προβάλλει όποιο άρθρο επιλέξετε (ή δικό σας μήνυμα). Ο επισκέπτης μπορεί να το κλείσει και δεν ξαναεμφανίζεται. Συμβατό με WPML."
+
+#. Author of the plugin
+#: smartbanner.php
+msgid "Smartup"
+msgstr "Smartup"
+
+#. Author URI of the plugin
+#: smartbanner.php
+msgid "https://smartupweb.com"
+msgstr "https://smartupweb.com"
+
+#: includes/admin.php:135
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/admin.php:245
+msgid "Live"
+msgstr "Ενεργό"
+
+#: includes/admin.php:246
+msgid "Off"
+msgstr "Ανενεργό"
+
+#: includes/admin.php:247
+msgid "Needs content"
+msgstr "Χρειάζεται περιεχόμενο"
+
+#: includes/admin.php:248
+msgid "Visitors can see the banner right now."
+msgstr "Οι επισκέπτες βλέπουν το banner αυτή τη στιγμή."
+
+#: includes/admin.php:249
+msgid "The banner is hidden. Switch it on when you are ready."
+msgstr "Το banner είναι κρυφό. Ενεργοποιήστε το όταν είστε έτοιμοι."
+
+#: includes/admin.php:250
+msgid "It is switched on, but there is nothing to show yet. Pick a post in step 1."
+msgstr "Είναι ενεργό, αλλά δεν έχει ακόμα τι να δείξει. Διαλέξτε άρθρο στο βήμα 1."
+
+#. translators: %s: comma-separated language names
+#: includes/admin.php:252
+#, php-format
+msgid "Visitors can see the banner right now in: %s."
+msgstr "Οι επισκέπτες βλέπουν το banner αυτή τη στιγμή στα: %s."
+
+#: includes/admin.php:253
+msgid "The banner is on."
+msgstr "Το banner είναι ενεργό."
+
+#: includes/admin.php:254
+msgid "The banner is off."
+msgstr "Το banner απενεργοποιήθηκε."
+
+#: includes/admin.php:255
+msgid "All changes saved"
+msgstr "Όλα αποθηκεύτηκαν"
+
+#: includes/admin.php:256
+msgid "Unsaved changes"
+msgstr "Μη αποθηκευμένες αλλαγές"
+
+#: includes/admin.php:257
+msgid "Saving…"
+msgstr "Αποθήκευση…"
+
+#: includes/admin.php:258
+msgid "Saved. Your banner is up to date."
+msgstr "Αποθηκεύτηκε. Το banner ενημερώθηκε."
+
+#: includes/admin.php:259
+msgid "Could not save. Please try again."
+msgstr "Η αποθήκευση απέτυχε. Δοκιμάστε ξανά."
+
+#: includes/admin.php:260
+msgid "No published posts in this language yet."
+msgstr "Δεν υπάρχουν ακόμα δημοσιευμένα άρθρα σε αυτή τη γλώσσα."
+
+#: includes/admin.php:261
+msgid "Choose a post"
+msgstr "Επιλέξτε άρθρο"
+
+#. translators: %d: number of posts
+#: includes/admin.php:263
+#, php-format
+msgid "%d posts, newest first"
+msgstr "%d άρθρα, τα πιο πρόσφατα πρώτα"
+
+#. translators: %s: language name
+#: includes/admin.php:265
+#, php-format
+msgid "We also picked its translation for %s."
+msgstr "Επιλέχθηκε και η μετάφρασή του για: %s."
+
+#: includes/admin.php:266
+msgid "Picked automatically: the translation of the post you chose in the other language."
+msgstr "Επιλέχθηκε αυτόματα: η μετάφραση του άρθρου που διαλέξατε στην άλλη γλώσσα."
+
+#: includes/admin.php:267
+msgid "e.g. Our new service is live"
+msgstr "π.χ. Η νέα μας υπηρεσία είναι εδώ"
+
+#: includes/admin.php:268
+msgid "One or two short sentences."
+msgstr "Μία ή δύο σύντομες προτάσεις."
+
+#: includes/admin.php:269
+msgid "Leave a field empty to use what the post already has (shown in grey)."
+msgstr "Αφήστε ένα πεδίο κενό για να χρησιμοποιηθεί αυτό που έχει ήδη το άρθρο (φαίνεται με γκρι)."
+
+#: includes/admin.php:270
+msgid "Write the message and choose where the button goes."
+msgstr "Γράψτε το μήνυμα και ορίστε πού οδηγεί το κουμπί."
+
+#: includes/admin.php:271
+msgid "Custom image"
+msgstr "Δική σας εικόνα"
+
+#: includes/admin.php:272
+msgid "Shown instead of the post image."
+msgstr "Εμφανίζεται αντί για την εικόνα του άρθρου."
+
+#: includes/admin.php:273
+msgid "Post featured image"
+msgstr "Κύρια εικόνα του άρθρου"
+
+#: includes/admin.php:274
+msgid "Taken from the post automatically."
+msgstr "Παίρνεται αυτόματα από το άρθρο."
+
+#: includes/admin.php:275
+msgid "No image"
+msgstr "Χωρίς εικόνα"
+
+#: includes/admin.php:276
+msgid "The banner looks fine without one too."
+msgstr "Το banner φαίνεται ωραίο και χωρίς εικόνα."
+
+#: includes/admin.php:277
+msgid "Choose image"
+msgstr "Επιλογή εικόνας"
+
+#: includes/admin.php:278
+msgid "Change image"
+msgstr "Αλλαγή εικόνας"
+
+#: includes/admin.php:279
+msgid "Use this image"
+msgstr "Χρήση αυτής της εικόνας"
+
+#: includes/admin.php:280
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: includes/admin.php:281
+msgid "Use the post image"
+msgstr "Χρήση της εικόνας του άρθρου"
+
+#: includes/admin.php:282
+msgid "The banner is not shown in this language."
+msgstr "Το banner δεν εμφανίζεται σε αυτή τη γλώσσα."
+
+#: includes/admin.php:283
+msgid "Pick a post or write a title to see your banner here."
+msgstr "Διαλέξτε άρθρο ή γράψτε τίτλο για να δείτε εδώ το banner."
+
+#: includes/admin.php:284
+msgid "Hidden on mobile"
+msgstr "Κρυφό στα κινητά"
+
+#: includes/admin.php:285
+msgid "Done. Open your site and the banner will be there again."
+msgstr "Έγινε. Άνοιξε το site σου και το banner θα είναι ξανά εκεί."
+
+#: includes/admin.php:286
+msgid "Show the banner again to all visitors, including those who closed it, and clear the site cache?"
+msgstr "Να εμφανιστεί ξανά το banner σε όλους τους επισκέπτες, και σε όσους το είχαν κλείσει, και να καθαριστεί το cache του site;"
+
+#. translators: %s: comma-separated names of caching plugins
+#: includes/admin.php:288
+#, php-format
+msgid "Done. Everyone will see the banner again. Cache cleared: %s."
+msgstr "Έγινε. Όλοι θα δουν ξανά το banner. Καθαρίστηκε το cache: %s."
+
+#: includes/admin.php:289
+msgid "Done. Everyone will see the banner again. No caching plugin was found; if your host or Cloudflare caches pages, clear it there too."
+msgstr "Έγινε. Όλοι θα δουν ξανά το banner. Δεν βρέθηκε plugin για cache. Αν ο πάροχος hosting ή το Cloudflare κρατάει cache σελίδων, καθάρισέ το κι εκεί."
+
+#: includes/admin.php:290
+msgid "Working…"
+msgstr "Γίνεται…"
+
+#: includes/admin.php:307
+msgid "You are not allowed to do this."
+msgstr "Δεν έχετε δικαίωμα για αυτή την ενέργεια."
+
+#: includes/admin.php:479
+msgid "What do you want to promote?"
+msgstr "Τι θέλετε να προβάλετε;"
+
+#: includes/admin.php:480
+msgid "Pick one of your blog posts, or write your own message."
+msgstr "Διαλέξτε ένα από τα άρθρα σας ή γράψτε δικό σας μήνυμα."
+
+#. translators: %s: language name
+#: includes/admin.php:488
+#, php-format
+msgid "Show the banner in %s"
+msgstr "Εμφάνιση του banner στα %s"
+
+#: includes/admin.php:489
+msgid "Switch off to show nothing on the pages of this language."
+msgstr "Απενεργοποιήστε το για να μην εμφανίζεται τίποτα στις σελίδες αυτής της γλώσσας."
+
+#: includes/admin.php:496
+msgid "Source"
+msgstr "Πηγή"
+
+#: includes/admin.php:497
+msgid "A blog post"
+msgstr "Ένα άρθρο"
+
+#: includes/admin.php:498
+msgid "My own message"
+msgstr "Δικό μου μήνυμα"
+
+#: includes/admin.php:502
+msgid "Post"
+msgstr "Άρθρο"
+
+#: includes/admin.php:515
+msgid "Nothing is shown in this language. Switch it on above when you want a banner here too."
+msgstr "Σε αυτή τη γλώσσα δεν εμφανίζεται τίποτα. Ενεργοποιήστε το από πάνω όταν θέλετε banner και εδώ."
+
+#: includes/admin.php:522
+msgid "Text, image and button"
+msgstr "Κείμενο, εικόνα και κουμπί"
+
+#: includes/admin.php:529
+msgid "Small label"
+msgstr "Μικρή ετικέτα"
+
+#: includes/admin.php:529
+msgid "(above the title)"
+msgstr "(πάνω από τον τίτλο)"
+
+#: includes/admin.php:530
+msgid "Leave empty to hide it"
+msgstr "Αφήστε κενό για να μην εμφανίζεται"
+
+#: includes/admin.php:533
+msgid "Title"
+msgstr "Τίτλος"
+
+#: includes/admin.php:537
+msgid "Short text"
+msgstr "Σύντομο κείμενο"
+
+#: includes/admin.php:539
+msgid "About three lines fit in the banner."
+msgstr "Στο banner χωράνε περίπου τρεις γραμμές."
+
+#: includes/admin.php:542
+msgid "Image"
+msgstr "Εικόνα"
+
+#: includes/admin.php:558
+msgid "Button text"
+msgstr "Κείμενο κουμπιού"
+
+#: includes/admin.php:559
+msgid "Leave empty to hide the button"
+msgstr "Αφήστε κενό για να μην εμφανίζεται κουμπί"
+
+#: includes/admin.php:562
+msgid "Button link"
+msgstr "Σύνδεσμος κουμπιού"
+
+#: includes/admin.php:568
+msgid "Open the link in a new tab"
+msgstr "Άνοιγμα σε νέα καρτέλα"
+
+#: includes/admin.php:569
+msgid "Useful when the link goes to another website."
+msgstr "Χρήσιμο όταν ο σύνδεσμος οδηγεί σε άλλο site."
+
+#: includes/admin.php:592
+msgid "Until the browser closes"
+msgstr "Μέχρι να κλείσει ο browser"
+
+#: includes/admin.php:593
+msgid "1 hour"
+msgstr "1 ώρα"
+
+#: includes/admin.php:594
+msgid "6 hours"
+msgstr "6 ώρες"
+
+#: includes/admin.php:595
+msgid "1 day"
+msgstr "1 ημέρα"
+
+#: includes/admin.php:596
+msgid "7 days"
+msgstr "7 ημέρες"
+
+#: includes/admin.php:597
+msgid "30 days"
+msgstr "30 ημέρες"
+
+#: includes/admin.php:598
+msgid "90 days"
+msgstr "90 ημέρες"
+
+#: includes/admin.php:599
+msgid "1 year"
+msgstr "1 χρόνο"
+
+#. translators: %d: number of days
+#: includes/admin.php:605
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d ημέρα"
+msgstr[1] "%d ημέρες"
+
+#. translators: %d: number of hours
+#: includes/admin.php:607
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ώρα"
+msgstr[1] "%d ώρες"
+
+#: includes/admin.php:624
+msgid "Promote a blog post in the corner of every page."
+msgstr "Προβάλετε ένα άρθρο στη γωνία κάθε σελίδας."
+
+#: includes/admin.php:629
+msgid "Language of this screen"
+msgstr "Γλώσσα αυτής της οθόνης"
+
+#: includes/admin.php:634
+msgid "Preview on site"
+msgstr "Προβολή στο site"
+
+#: includes/admin.php:636
+msgid "Save changes"
+msgstr "Αποθήκευση"
+
+#: includes/admin.php:647
+#: includes/admin.php:653
+msgid "Show the banner on my site"
+msgstr "Εμφάνιση του banner στο site μου"
+
+#: includes/admin.php:662
+#: includes/admin.php:666
+msgid "Languages"
+msgstr "Γλώσσες"
+
+#: includes/admin.php:663
+msgid "Your site has more than one language. Choose what the banner shows in each one."
+msgstr "Το site σας έχει περισσότερες από μία γλώσσες. Ορίστε τι δείχνει το banner σε καθεμία."
+
+#: includes/admin.php:693
+msgid "When does it appear?"
+msgstr "Πότε εμφανίζεται;"
+
+#: includes/admin.php:694
+msgid "A short delay feels less intrusive than showing it instantly."
+msgstr "Μια μικρή καθυστέρηση ενοχλεί λιγότερο από την άμεση εμφάνιση."
+
+#: includes/admin.php:699
+msgid "Show it after"
+msgstr "Εμφάνιση μετά από"
+
+#: includes/admin.php:701
+msgid "Less"
+msgstr "Λιγότερο"
+
+#: includes/admin.php:703
+msgid "seconds"
+msgstr "δευτ."
+
+#: includes/admin.php:704
+msgid "More"
+msgstr "Περισσότερο"
+
+#: includes/admin.php:708
+msgid "When a visitor closes it, keep it hidden for"
+msgstr "Όταν ο επισκέπτης το κλείσει, να μην ξαναεμφανιστεί για"
+
+#: includes/admin.php:714
+msgid "When you promote a different post, everyone sees the banner again, even if they closed the previous one."
+msgstr "Όταν προβάλετε άλλο άρθρο, το banner εμφανίζεται ξανά σε όλους, ακόμα κι αν είχαν κλείσει το προηγούμενο."
+
+#: includes/admin.php:718
+msgid "Closed it and want to see it again?"
+msgstr "Το έκλεισες και θέλεις να το ξαναδείς;"
+
+#: includes/admin.php:719
+msgid "Brings the banner back in this browser straight away. Your visitors are not affected."
+msgstr "Το banner εμφανίζεται ξανά αμέσως σε αυτόν τον browser. Οι επισκέπτες σου δεν επηρεάζονται."
+
+#: includes/admin.php:721
+msgid "Show it to me again"
+msgstr "Εμφάνισέ το ξανά σε μένα"
+
+#: includes/admin.php:725
+msgid "Want everyone to see it again?"
+msgstr "Θέλεις να το ξαναδούν όλοι;"
+
+#: includes/admin.php:726
+msgid "Brings the banner back for all visitors, even those who closed it, and clears the site cache."
+msgstr "Το banner εμφανίζεται ξανά σε όλους τους επισκέπτες, ακόμα και σε όσους το είχαν κλείσει. Καθαρίζει και το cache του site."
+
+#: includes/admin.php:728
+msgid "Show it to everyone again"
+msgstr "Εμφάνισέ το ξανά σε όλους"
+
+#: includes/admin.php:737
+msgid "Look and position"
+msgstr "Εμφάνιση και θέση"
+
+#: includes/admin.php:738
+msgid "The banner uses your theme fonts. Choose where it sits and the button colours."
+msgstr "Το banner χρησιμοποιεί τις γραμματοσειρές του θέματός σας. Διαλέξτε θέση και χρώματα κουμπιού."
+
+#: includes/admin.php:743
+#: includes/admin.php:744
+msgid "Position"
+msgstr "Θέση"
+
+#: includes/admin.php:747
+msgid "Bottom left"
+msgstr "Κάτω αριστερά"
+
+#: includes/admin.php:748
+msgid "Bottom right"
+msgstr "Κάτω δεξιά"
+
+#: includes/admin.php:761
+msgid "Distance from the side"
+msgstr "Απόσταση από το πλάι"
+
+#: includes/admin.php:765
+msgid "Distance from the bottom"
+msgstr "Απόσταση από κάτω"
+
+#: includes/admin.php:769
+msgid "Covering the theme's \"back to top\" button? Increase the distance from the bottom."
+msgstr "Καλύπτει το κουμπί «επιστροφή στην κορυφή» του θέματος; Αυξήστε την απόσταση από κάτω."
+
+#: includes/admin.php:772
+msgid "Layer (z-index)"
+msgstr "Επίπεδο (z-index)"
+
+#: includes/admin.php:774
+msgid "Showing on top of your theme's mobile menu or a popup? Lower this number. Hidden behind something? Raise it. The default is 99."
+msgstr "Εμφανίζεται πάνω από το μενού κινητού ή από κάποιο popup; Μείωσε τον αριθμό. Κρύβεται πίσω από κάτι; Αύξησέ τον. Η προεπιλογή είναι 99."
+
+#: includes/admin.php:780
+msgid "Button colour"
+msgstr "Χρώμα κουμπιού"
+
+#: includes/admin.php:781
+msgid "Button text colour"
+msgstr "Χρώμα κειμένου κουμπιού"
+
+#: includes/admin.php:798
+msgid "These two colours are too close. The button text may be hard to read."
+msgstr "Τα δύο χρώματα μοιάζουν πολύ. Το κείμενο του κουμπιού ίσως δεν διαβάζεται εύκολα."
+
+#: includes/admin.php:803
+msgid "Show on mobile"
+msgstr "Εμφάνιση σε κινητά"
+
+#: includes/admin.php:804
+msgid "On phones the banner spans the width of the screen."
+msgstr "Στα κινητά το banner πιάνει όλο το πλάτος της οθόνης."
+
+#: includes/admin.php:810
+msgid "Hide the image on mobile"
+msgstr "Απόκρυψη εικόνας σε κινητά"
+
+#: includes/admin.php:811
+msgid "Makes the banner smaller on small screens."
+msgstr "Κάνει το banner πιο μικρό στις μικρές οθόνες."
+
+#: includes/admin.php:823
+msgid "Live preview"
+msgstr "Ζωντανή προεπισκόπηση"
+
+#: includes/admin.php:825
+msgid "Desktop"
+msgstr "Υπολογιστής"
+
+#: includes/admin.php:826
+msgid "Mobile"
+msgstr "Κινητό"
+
+#: includes/admin.php:850
+msgid "Changes appear here as you type. Save to publish them on your site."
+msgstr "Οι αλλαγές φαίνονται εδώ καθώς γράφετε. Πατήστε Αποθήκευση για να περάσουν στο site."

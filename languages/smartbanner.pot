@@ -1,0 +1,531 @@
+# Copyright (C) 2026 Smartup
+# This file is distributed under the same license as the SmartBanner plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartBanner 1.3.7\n"
+"Report-Msgid-Bugs-To: https://smartupweb.com\n"
+"Last-Translator: Smartup\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-26T19:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: smartbanner\n"
+
+#. Plugin Name of the plugin
+#: smartbanner.php
+#: includes/admin.php:124
+#: includes/admin.php:125
+#: includes/admin.php:623
+msgid "SmartBanner"
+msgstr ""
+
+#. Description of the plugin
+#: smartbanner.php
+msgid "Floating banner in the bottom corner that promotes a blog post you choose (or custom content). Visitors can close it and it stays closed. WPML ready."
+msgstr ""
+
+#. Author of the plugin
+#: smartbanner.php
+msgid "Smartup"
+msgstr ""
+
+#. Author URI of the plugin
+#: smartbanner.php
+msgid "https://smartupweb.com"
+msgstr ""
+
+#: includes/admin.php:135
+msgid "Settings"
+msgstr ""
+
+#: includes/admin.php:245
+msgid "Live"
+msgstr ""
+
+#: includes/admin.php:246
+msgid "Off"
+msgstr ""
+
+#: includes/admin.php:247
+msgid "Needs content"
+msgstr ""
+
+#: includes/admin.php:248
+msgid "Visitors can see the banner right now."
+msgstr ""
+
+#: includes/admin.php:249
+msgid "The banner is hidden. Switch it on when you are ready."
+msgstr ""
+
+#: includes/admin.php:250
+msgid "It is switched on, but there is nothing to show yet. Pick a post in step 1."
+msgstr ""
+
+#. translators: %s: comma-separated language names
+#: includes/admin.php:252
+#, php-format
+msgid "Visitors can see the banner right now in: %s."
+msgstr ""
+
+#: includes/admin.php:253
+msgid "The banner is on."
+msgstr ""
+
+#: includes/admin.php:254
+msgid "The banner is off."
+msgstr ""
+
+#: includes/admin.php:255
+msgid "All changes saved"
+msgstr ""
+
+#: includes/admin.php:256
+msgid "Unsaved changes"
+msgstr ""
+
+#: includes/admin.php:257
+msgid "Saving…"
+msgstr ""
+
+#: includes/admin.php:258
+msgid "Saved. Your banner is up to date."
+msgstr ""
+
+#: includes/admin.php:259
+msgid "Could not save. Please try again."
+msgstr ""
+
+#: includes/admin.php:260
+msgid "No published posts in this language yet."
+msgstr ""
+
+#: includes/admin.php:261
+msgid "Choose a post"
+msgstr ""
+
+#. translators: %d: number of posts
+#: includes/admin.php:263
+#, php-format
+msgid "%d posts, newest first"
+msgstr ""
+
+#. translators: %s: language name
+#: includes/admin.php:265
+#, php-format
+msgid "We also picked its translation for %s."
+msgstr ""
+
+#: includes/admin.php:266
+msgid "Picked automatically: the translation of the post you chose in the other language."
+msgstr ""
+
+#: includes/admin.php:267
+msgid "e.g. Our new service is live"
+msgstr ""
+
+#: includes/admin.php:268
+msgid "One or two short sentences."
+msgstr ""
+
+#: includes/admin.php:269
+msgid "Leave a field empty to use what the post already has (shown in grey)."
+msgstr ""
+
+#: includes/admin.php:270
+msgid "Write the message and choose where the button goes."
+msgstr ""
+
+#: includes/admin.php:271
+msgid "Custom image"
+msgstr ""
+
+#: includes/admin.php:272
+msgid "Shown instead of the post image."
+msgstr ""
+
+#: includes/admin.php:273
+msgid "Post featured image"
+msgstr ""
+
+#: includes/admin.php:274
+msgid "Taken from the post automatically."
+msgstr ""
+
+#: includes/admin.php:275
+msgid "No image"
+msgstr ""
+
+#: includes/admin.php:276
+msgid "The banner looks fine without one too."
+msgstr ""
+
+#: includes/admin.php:277
+msgid "Choose image"
+msgstr ""
+
+#: includes/admin.php:278
+msgid "Change image"
+msgstr ""
+
+#: includes/admin.php:279
+msgid "Use this image"
+msgstr ""
+
+#: includes/admin.php:280
+msgid "Remove"
+msgstr ""
+
+#: includes/admin.php:281
+msgid "Use the post image"
+msgstr ""
+
+#: includes/admin.php:282
+msgid "The banner is not shown in this language."
+msgstr ""
+
+#: includes/admin.php:283
+msgid "Pick a post or write a title to see your banner here."
+msgstr ""
+
+#: includes/admin.php:284
+msgid "Hidden on mobile"
+msgstr ""
+
+#: includes/admin.php:285
+msgid "Done. Open your site and the banner will be there again."
+msgstr ""
+
+#: includes/admin.php:286
+msgid "Show the banner again to all visitors, including those who closed it, and clear the site cache?"
+msgstr ""
+
+#. translators: %s: comma-separated names of caching plugins
+#: includes/admin.php:288
+#, php-format
+msgid "Done. Everyone will see the banner again. Cache cleared: %s."
+msgstr ""
+
+#: includes/admin.php:289
+msgid "Done. Everyone will see the banner again. No caching plugin was found; if your host or Cloudflare caches pages, clear it there too."
+msgstr ""
+
+#: includes/admin.php:290
+msgid "Working…"
+msgstr ""
+
+#: includes/admin.php:307
+msgid "You are not allowed to do this."
+msgstr ""
+
+#: includes/admin.php:479
+msgid "What do you want to promote?"
+msgstr ""
+
+#: includes/admin.php:480
+msgid "Pick one of your blog posts, or write your own message."
+msgstr ""
+
+#. translators: %s: language name
+#: includes/admin.php:488
+#, php-format
+msgid "Show the banner in %s"
+msgstr ""
+
+#: includes/admin.php:489
+msgid "Switch off to show nothing on the pages of this language."
+msgstr ""
+
+#: includes/admin.php:496
+msgid "Source"
+msgstr ""
+
+#: includes/admin.php:497
+msgid "A blog post"
+msgstr ""
+
+#: includes/admin.php:498
+msgid "My own message"
+msgstr ""
+
+#: includes/admin.php:502
+msgid "Post"
+msgstr ""
+
+#: includes/admin.php:515
+msgid "Nothing is shown in this language. Switch it on above when you want a banner here too."
+msgstr ""
+
+#: includes/admin.php:522
+msgid "Text, image and button"
+msgstr ""
+
+#: includes/admin.php:529
+msgid "Small label"
+msgstr ""
+
+#: includes/admin.php:529
+msgid "(above the title)"
+msgstr ""
+
+#: includes/admin.php:530
+msgid "Leave empty to hide it"
+msgstr ""
+
+#: includes/admin.php:533
+msgid "Title"
+msgstr ""
+
+#: includes/admin.php:537
+msgid "Short text"
+msgstr ""
+
+#: includes/admin.php:539
+msgid "About three lines fit in the banner."
+msgstr ""
+
+#: includes/admin.php:542
+msgid "Image"
+msgstr ""
+
+#: includes/admin.php:558
+msgid "Button text"
+msgstr ""
+
+#: includes/admin.php:559
+msgid "Leave empty to hide the button"
+msgstr ""
+
+#: includes/admin.php:562
+msgid "Button link"
+msgstr ""
+
+#: includes/admin.php:568
+msgid "Open the link in a new tab"
+msgstr ""
+
+#: includes/admin.php:569
+msgid "Useful when the link goes to another website."
+msgstr ""
+
+#: includes/admin.php:592
+msgid "Until the browser closes"
+msgstr ""
+
+#: includes/admin.php:593
+msgid "1 hour"
+msgstr ""
+
+#: includes/admin.php:594
+msgid "6 hours"
+msgstr ""
+
+#: includes/admin.php:595
+msgid "1 day"
+msgstr ""
+
+#: includes/admin.php:596
+msgid "7 days"
+msgstr ""
+
+#: includes/admin.php:597
+msgid "30 days"
+msgstr ""
+
+#: includes/admin.php:598
+msgid "90 days"
+msgstr ""
+
+#: includes/admin.php:599
+msgid "1 year"
+msgstr ""
+
+#. translators: %d: number of days
+#: includes/admin.php:605
+#, php-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of hours
+#: includes/admin.php:607
+#, php-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin.php:624
+msgid "Promote a blog post in the corner of every page."
+msgstr ""
+
+#: includes/admin.php:629
+msgid "Language of this screen"
+msgstr ""
+
+#: includes/admin.php:634
+msgid "Preview on site"
+msgstr ""
+
+#: includes/admin.php:636
+msgid "Save changes"
+msgstr ""
+
+#: includes/admin.php:647
+#: includes/admin.php:653
+msgid "Show the banner on my site"
+msgstr ""
+
+#: includes/admin.php:662
+#: includes/admin.php:666
+msgid "Languages"
+msgstr ""
+
+#: includes/admin.php:663
+msgid "Your site has more than one language. Choose what the banner shows in each one."
+msgstr ""
+
+#: includes/admin.php:693
+msgid "When does it appear?"
+msgstr ""
+
+#: includes/admin.php:694
+msgid "A short delay feels less intrusive than showing it instantly."
+msgstr ""
+
+#: includes/admin.php:699
+msgid "Show it after"
+msgstr ""
+
+#: includes/admin.php:701
+msgid "Less"
+msgstr ""
+
+#: includes/admin.php:703
+msgid "seconds"
+msgstr ""
+
+#: includes/admin.php:704
+msgid "More"
+msgstr ""
+
+#: includes/admin.php:708
+msgid "When a visitor closes it, keep it hidden for"
+msgstr ""
+
+#: includes/admin.php:714
+msgid "When you promote a different post, everyone sees the banner again, even if they closed the previous one."
+msgstr ""
+
+#: includes/admin.php:718
+msgid "Closed it and want to see it again?"
+msgstr ""
+
+#: includes/admin.php:719
+msgid "Brings the banner back in this browser straight away. Your visitors are not affected."
+msgstr ""
+
+#: includes/admin.php:721
+msgid "Show it to me again"
+msgstr ""
+
+#: includes/admin.php:725
+msgid "Want everyone to see it again?"
+msgstr ""
+
+#: includes/admin.php:726
+msgid "Brings the banner back for all visitors, even those who closed it, and clears the site cache."
+msgstr ""
+
+#: includes/admin.php:728
+msgid "Show it to everyone again"
+msgstr ""
+
+#: includes/admin.php:737
+msgid "Look and position"
+msgstr ""
+
+#: includes/admin.php:738
+msgid "The banner uses your theme fonts. Choose where it sits and the button colours."
+msgstr ""
+
+#: includes/admin.php:743
+#: includes/admin.php:744
+msgid "Position"
+msgstr ""
+
+#: includes/admin.php:747
+msgid "Bottom left"
+msgstr ""
+
+#: includes/admin.php:748
+msgid "Bottom right"
+msgstr ""
+
+#: includes/admin.php:761
+msgid "Distance from the side"
+msgstr ""
+
+#: includes/admin.php:765
+msgid "Distance from the bottom"
+msgstr ""
+
+#: includes/admin.php:769
+msgid "Covering the theme's \"back to top\" button? Increase the distance from the bottom."
+msgstr ""
+
+#: includes/admin.php:772
+msgid "Layer (z-index)"
+msgstr ""
+
+#: includes/admin.php:774
+msgid "Showing on top of your theme's mobile menu or a popup? Lower this number. Hidden behind something? Raise it. The default is 99."
+msgstr ""
+
+#: includes/admin.php:780
+msgid "Button colour"
+msgstr ""
+
+#: includes/admin.php:781
+msgid "Button text colour"
+msgstr ""
+
+#: includes/admin.php:798
+msgid "These two colours are too close. The button text may be hard to read."
+msgstr ""
+
+#: includes/admin.php:803
+msgid "Show on mobile"
+msgstr ""
+
+#: includes/admin.php:804
+msgid "On phones the banner spans the width of the screen."
+msgstr ""
+
+#: includes/admin.php:810
+msgid "Hide the image on mobile"
+msgstr ""
+
+#: includes/admin.php:811
+msgid "Makes the banner smaller on small screens."
+msgstr ""
+
+#: includes/admin.php:823
+msgid "Live preview"
+msgstr ""
+
+#: includes/admin.php:825
+msgid "Desktop"
+msgstr ""
+
+#: includes/admin.php:826
+msgid "Mobile"
+msgstr ""
+
+#: includes/admin.php:850
+msgid "Changes appear here as you type. Save to publish them on your site."
+msgstr ""

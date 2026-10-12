@@ -1,0 +1,192 @@
+/* SmartBanner: everything is scoped under .smb and resets theme styles (Ohio etc.) where it matters. */
+.smb {
+	--smb-bg: #ffffff;
+	--smb-fg: #141413;
+	--smb-muted: #5e5d59;
+	--smb-border: rgba(20, 20, 19, 0.12);
+	--smb-radius: 14px;
+	--smb-shadow: 0 12px 32px -10px rgba(20, 20, 19, 0.22), 0 2px 6px rgba(20, 20, 19, 0.06);
+	--smb-media: 128px;
+
+	position: fixed;
+	right: var(--smb-x, 24px);
+	bottom: calc(var(--smb-y, 24px) + env(safe-area-inset-bottom, 0px)); /* clear of the iPhone home bar */
+	/* Low on purpose: above the page, below the theme's mobile menu, popups and cookie banners. */
+	z-index: var(--smb-z, 99);
+	display: flex;
+	gap: 16px;
+	width: 390px;
+	max-width: calc(100vw - 32px);
+	margin: 0;
+	padding: 16px;
+	box-sizing: border-box;
+	background: var(--smb-bg);
+	color: var(--smb-fg);
+	border: 1px solid var(--smb-border);
+	border-radius: var(--smb-radius);
+	box-shadow: var(--smb-shadow);
+	font-family: inherit;
+	font-size: 15px;
+	line-height: 1.45;
+	text-align: left;
+	opacity: 0;
+	transform: translateY(16px);
+	transition: opacity 0.35s ease, transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.smb--left { right: auto; left: var(--smb-x, 24px); }
+.smb.is-visible { opacity: 1; transform: none; }
+.smb[hidden] { display: none !important; }
+/* Ohio theme: its mobile menu drawer sits inside the header's stacking context (z-index 60), so no z-index
+   can put it above the banner. Hide the banner while the drawer is open instead. */
+body:has(.menu-slide-in-overlay.visible) #smartbanner { display: none !important; }
+.smb *, .smb *::before, .smb *::after { box-sizing: border-box; }
+
+.smb__body {
+	display: flex;
+	flex: 1 1 auto;
+	flex-direction: column;
+	align-items: flex-start;
+	min-width: 0;
+}
+.smb--no-img .smb__body { padding-right: 36px; }
+
+.smb .smb__label {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin: 0 0 12px;
+	padding: 0;
+	color: var(--smb-muted);
+	font-size: 13px;
+	line-height: 1.3;
+	letter-spacing: 0.01em;
+}
+.smb__label svg { flex: none; width: 14px; height: 14px; }
+
+.smb .smb__title {
+	margin: 0 0 8px;
+	padding: 0;
+	color: var(--smb-fg);
+	font-family: var(--smb-title-font, inherit);
+	font-size: 19px;
+	font-weight: 500;
+	line-height: 1.3;
+	text-wrap: balance;
+}
+
+.smb .smb__text {
+	display: -webkit-box;
+	margin: 0 0 16px;
+	padding: 0;
+	overflow: hidden;
+	color: var(--smb-muted);
+	font-size: 14px;
+	line-height: 1.5;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+.smb .smb__btn {
+	display: inline-flex;
+	align-items: center;
+	margin-top: auto;
+	padding: 9px 16px;
+	border: 0;
+	border-radius: 8px;
+	background: var(--smb-btn-bg, #141413);
+	background-image: none;
+	color: var(--smb-btn-fg, #fff);
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-decoration: none;
+	box-shadow: none;
+	transition: opacity 0.2s ease;
+}
+.smb .smb__btn::before, .smb .smb__btn::after { content: none; }
+/* Hover/focus look exactly like the normal state; !important because themes (Ohio) restyle a:hover. */
+.smb .smb__btn:hover, .smb .smb__btn:focus, .smb .smb__btn:active, .smb .smb__btn:visited {
+	background: var(--smb-btn-bg, #141413) !important;
+	background-image: none !important;
+	color: var(--smb-btn-fg, #fff) !important;
+	border: 0 !important;
+	box-shadow: none !important;
+	text-decoration: none !important;
+	opacity: 1 !important;
+	transform: none !important;
+	filter: none !important;
+}
+
+.smb__media {
+	display: block;
+	flex: 0 0 var(--smb-media);
+	align-self: flex-end;
+	height: var(--smb-media);
+	margin-top: 40px; /* leaves room for the close button above it */
+	overflow: hidden;
+	border-radius: 10px;
+	background: rgba(20, 20, 19, 0.05);
+}
+.smb .smb__img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-width: none;
+	margin: 0;
+	object-fit: cover;
+	border-radius: 0;
+}
+
+.smb .smb__close {
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	display: grid;
+	place-items: center;
+	width: 30px;
+	min-width: 0;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid var(--smb-border);
+	border-radius: 7px;
+	background: var(--smb-bg);
+	color: var(--smb-fg);
+	line-height: 1;
+	box-shadow: none;
+	cursor: pointer;
+	appearance: none;
+	transition: background-color 0.2s ease;
+}
+.smb .smb__close:hover { background: rgba(20, 20, 19, 0.06); }
+.smb__close svg { width: 14px; height: 14px; pointer-events: none; }
+
+.smb .smb__btn:focus-visible,
+.smb .smb__close:focus-visible {
+	outline: 2px solid var(--smb-fg);
+	outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+	.smb {
+		--smb-media: 88px;
+		right: 12px;
+		bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+		width: auto;
+		max-width: calc(100vw - 24px); /* never wider than the screen, even if the page scrolls sideways */
+		left: 12px;
+		gap: 12px;
+		padding: 14px;
+	}
+	.smb--left { left: 12px; right: 12px; }
+	.smb .smb__title { font-size: 17px; }
+	.smb .smb__text { -webkit-line-clamp: 2; margin-bottom: 12px; }
+	.smb__media { margin-top: 36px; }
+	.smb--hide-mobile { display: none !important; }
+	.smb--no-img-mobile .smb__media { display: none; }
+	.smb--no-img-mobile .smb__body { padding-right: 36px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.smb { transition: none; transform: none; }
+}
