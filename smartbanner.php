@@ -3,8 +3,8 @@
  * Plugin Name:       SmartBanner
  * Description:       Floating banner in the bottom corner that promotes a blog post you choose (or custom content). Visitors can close it and it stays closed. WPML ready.
  * Version:           1.3.7
- * Author:            Smartup
- * Author URI:        https://smartupweb.com
+ * Author:            GG
+ * Author URI:        https://gglias.github.io
  * Plugin URI:        https://github.com/gglias/smartbanner
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,7 @@
  * Domain Path:       /languages
  * Requires at least: 6.1
  * Requires PHP:      7.4
- * Update URI:        https://smartupweb.com/plugins/smartbanner
+ * Update URI:        https://github.com/gglias/smartbanner
  */
 
 defined( 'ABSPATH' ) || exit;

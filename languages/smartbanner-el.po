@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: SmartBanner 1.3.7\n"
-"Report-Msgid-Bugs-To: https://smartupweb.com\n"
+"Report-Msgid-Bugs-To: https://github.com/gglias/smartbanner/issues\n"
 "Last-Translator: Smartup\n"
 "Language-Team: Greek\n"
 "MIME-Version: 1.0\n"
@@ -31,13 +31,13 @@ msgstr "Αιωρούμενο banner στη γωνία της σελίδας πο
 
 #. Author of the plugin
 #: smartbanner.php
-msgid "Smartup"
-msgstr "Smartup"
+msgid "GG"
+msgstr "GG"
 
 #. Author URI of the plugin
 #: smartbanner.php
-msgid "https://smartupweb.com"
-msgstr "https://smartupweb.com"
+msgid "https://gglias.github.io"
+msgstr "https://gglias.github.io"
 
 #: includes/admin.php:135
 msgid "Settings"
