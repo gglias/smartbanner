@@ -5,7 +5,7 @@
 A floating banner for WordPress that sits in the bottom corner and promotes a blog post you choose, or your own custom content. Visitors can close it and it stays closed. WPML ready.
 
 > [!NOTE]
-> **Built for the Smartup website.** This plugin was made for Smartup's own website ([smartupweb.com](https://smartupweb.com)). Some settings may show the Smartup name by default, and in a few places it may not be changeable from the admin.
+> **Some defaults are built in.** A few settings come with default names and texts, and in some places they may not be changeable from the admin.
 >
 > **Need a white-label version?** Send me a message or email me at **[gglias.pro@gmail.com](mailto:gglias.pro@gmail.com)** and tell me what you need.
 
